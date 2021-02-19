@@ -9,13 +9,13 @@ const Alert = (props) => {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
 };
 
-const Message = ({ msg, closeMessage, open, success }) => {
+const Message = ({ msg, setOpen, open, success }) => {
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
       return;
     }
 
-    closeMessage(false);
+    setOpen(false);
   };
 
   return (
