@@ -1,3 +1,12 @@
+This is the front end app to upload files to the nodeJS backend app.
+https://github.com/ravikiran-fullstack/reusable-react-file-upload-be
+
+This app can be intergrated into any bigger application where you want to upload file to an endpoint.
+It shows the percentage of file uploaded and success/failure message based on the result.
+
+App uses Axios to upload files to the backend.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
